@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "dee68ef3-1346-4e9b-9be4-53272a0e814d",
+		"name": "app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14001384"
+	},
+	"item": [
+		{
+			"name": "application",
+			"item": [
+				{
+					"name": "Balance",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"token\": \"your_token_here\",\r\n  \"data\": {\r\n    \"gameSessionId\": 123,\r\n    \"currency\": \"Currency for demo games\"\r\n  }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9010/open-api-games/v1/games-processor/balance",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9010",
+							"path": [
+								"open-api-games",
+								"v1",
+								"games-processor",
+								"balance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Debit",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"token\": \"example_token\",\r\n  \"data\": {\r\n    \"transactionId\": \"transaction123\",\r\n    \"gameSessionId\": 123,\r\n    \"currency\": \"Currency for demo games\",\r\n    \"amount\": 100.0,\r\n    \"betId\": \"bet123\",\r\n    \"spinMeta\": {\r\n      \"lines\": 20,\r\n      \"betPerLine\": 5,\r\n      \"totalBet\": 100,\r\n      \"symbolMatrix\": [\r\n        [1, 2, 3],\r\n        [4, 5, 6],\r\n        [7, 8, 9]\r\n      ]\r\n    },\r\n    \"betMeta\": {\r\n      \"bets\": [\r\n        {\r\n          \"balls\": [1, 2, 3],\r\n          \"colors\": [\"red\", \"green\", \"blue\"],\r\n          \"amount\": 50\r\n        },\r\n        {\r\n          \"balls\": [4, 5, 6],\r\n          \"colors\": [\"yellow\", \"purple\", \"orange\"],\r\n          \"amount\": 50\r\n        }\r\n      ]\r\n    },\r\n    \"notes\": \"Lorem ipsum\"\r\n  }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9010/open-api-games/v1/games-processor/debit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9010",
+							"path": [
+								"open-api-games",
+								"v1",
+								"games-processor",
+								"debit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Credit",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"token\": \"example_token\",\r\n  \"data\": {\r\n    \"transactionId\": \"transaction123\",\r\n    \"gameSessionId\": 123,\r\n    \"currency\": \"Currency for demo games\",\r\n    \"amount\": 100.0,\r\n    \"betId\": \"bet123\",\r\n    \"spinMeta\": {\r\n      \"lines\": 20,\r\n      \"betPerLine\": 5,\r\n      \"totalBet\": 100,\r\n      \"symbolMatrix\": [\r\n        [1, 2, 3],\r\n        [4, 5, 6],\r\n        [7, 8, 9]\r\n      ]\r\n    },\r\n    \"betMeta\": {\r\n      \"bets\": [\r\n        {\r\n          \"balls\": [1, 2, 3],\r\n          \"colors\": [\"red\", \"green\", \"blue\"],\r\n          \"amount\": 50\r\n        },\r\n        {\r\n          \"balls\": [4, 5, 6],\r\n          \"colors\": [\"yellow\", \"purple\", \"orange\"],\r\n          \"amount\": 50\r\n        }\r\n      ]\r\n    },\r\n    \"notes\": \"Lorem ipsum\"\r\n  }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9010/open-api-games/v1/games-processor/credit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9010",
+							"path": [
+								"open-api-games",
+								"v1",
+								"games-processor",
+								"credit"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "database",
+			"item": [
+				{
+					"name": "Get wallet from db",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create wallet",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userId\": 123,\r\n  \"userNick\": \"player123\",\r\n  \"maxWin\": 3000,\r\n  \"accounts\": [\r\n    {\r\n      \"balance\": 2000.0,\r\n      \"denomination\": 8,\r\n      \"currency\": \"Currency for demo games\"\r\n    },\r\n    {\r\n      \"balance\": 50.0,\r\n      \"denomination\": 8,\r\n      \"currency\": \"Albanian Lek\"\r\n    }\r\n  ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9010/wallets",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9010",
+							"path": [
+								"wallets"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modify account balance",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9010/wallets/123/accounts/1?balance=15000.0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9010",
+							"path": [
+								"wallets",
+								"123",
+								"accounts",
+								"1"
+							],
+							"query": [
+								{
+									"key": "balance",
+									"value": "15000.0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

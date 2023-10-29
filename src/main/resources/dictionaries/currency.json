@@ -1,0 +1,207 @@
+[
+  {
+    "code": "FUN",
+    "name": "Currency for demo games",
+    "id": 1
+  },
+  {
+    "code": "ALL",
+    "name": "Albanian Lek",
+    "id": 2
+  },
+  {
+    "code": "DZD",
+    "name": "Algerian Dinar",
+    "id": 3
+  },
+  {
+    "code": "ARS",
+    "name": "Argentine Peso",
+    "id": 4
+  },
+  {
+    "code": "AUD",
+    "name": "Australian Dollar",
+    "id": 5
+  },
+  {
+    "code": "BSD",
+    "name": "Bahamian Dollar",
+    "id": 6
+  },
+  {
+    "code": "BHD",
+    "name": "Bahraini Dinar",
+    "id": 7
+  },
+  {
+    "code": "BDT",
+    "name": "Bangladeshi Taka",
+    "id": 8
+  },
+  {
+    "code": "AMD",
+    "name": "Armenian Dram",
+    "id": 9
+  },
+  {
+    "code": "BBD",
+    "name": "Barbados Dollar",
+    "id": 10
+  },
+  {
+    "code": "BMD",
+    "name": "Bermudian Dollar",
+    "id": 11
+  },
+  {
+    "code": "BTN",
+    "name": "Bhutanese Ngultrum",
+    "id": 12
+  },
+  {
+    "code": "BOB",
+    "name": "Bolivian Boliviano",
+    "id": 13
+  },
+  {
+    "code": "BWP",
+    "name": "Botswana Pula",
+    "id": 14
+  },
+  {
+    "code": "BZD",
+    "name": "Belize Dollar",
+    "id": 15
+  },
+  {
+    "code": "SBD",
+    "name": "Solomon Islands Dollar",
+    "id": 16
+  },
+  {
+    "code": "BND",
+    "name": "Brunei Dollar",
+    "id": 17
+  },
+  {
+    "code": "MMK",
+    "name": "Myanmar Kyat",
+    "id": 18
+  },
+  {
+    "code": "BIF",
+    "name": "Burundian Franc",
+    "id": 19
+  },
+  {
+    "code": "KHR",
+    "name": "Cambodian Riel",
+    "id": 20
+  },
+  {
+    "code": "CAD",
+    "name": "Canadian Dollar",
+    "id": 21
+  },
+  {
+    "code": "CVE",
+    "name": "Cape Verde Escudo",
+    "id": 22
+  },
+  {
+    "code": "KYD",
+    "name": "Cayman Islands Dollar",
+    "id": 23
+  },
+  {
+    "code": "LKR",
+    "name": "Sri Lankan Rupee",
+    "id": 24
+  },
+  {
+    "code": "CLP",
+    "name": "Chilean Peso",
+    "id": 25
+  },
+  {
+    "code": "CNY",
+    "name": "Chinese Yuan Renminbi",
+    "id": 26
+  },
+  {
+    "code": "COP",
+    "name": "Colombian Peso",
+    "id": 27
+  },
+  {
+    "code": "KMF",
+    "name": "Comorian Franc",
+    "id": 28
+  },
+  {
+    "code": "CRC",
+    "name": "Costa Rican Colon",
+    "id": 29
+  },
+  {
+    "code": "HRK",
+    "name": "Croatian Kuna",
+    "id": 30
+  },
+  {
+    "code": "CUP",
+    "name": "Cuban Peso",
+    "id": 31
+  },
+  {
+    "code": "CYP",
+    "name": "Cypriot Pound",
+    "id": 32
+  },
+  {
+    "code": "CZK",
+    "name": "Czech Koruna",
+    "id": 33
+  },
+  {
+    "code": "DKK",
+    "name": "Danish Krone",
+    "id": 34
+  },
+  {
+    "code": "DOP",
+    "name": "Dominican Peso",
+    "id": 35
+  },
+  {
+    "code": "SVC",
+    "name": "Salvadoran Colon",
+    "id": 36
+  },
+  {
+    "code": "ETB",
+    "name": "Ethiopian Birr",
+    "id": 37
+  },
+  {
+    "code": "ERN",
+    "name": "Eritrean Nakfa",
+    "id": 38
+  },
+  {
+    "code": "EEK",
+    "name": "Estonian Kroon",
+    "id": 39
+  },
+  {
+    "code": "FKP",
+    "name": "Falkland Islands Pound",
+    "id": 40
+  },
+  {
+    "code": "FJD",
+    "name": "Fiji Dollar",
+    "id": 41
+  }
+]
